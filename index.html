@@ -68,7 +68,9 @@
 
 
     #cover::after,
-    #cover::before {
+    #cover::before,
+    #theend::after,
+    #theend::before {
       display: none;
     }
 
@@ -104,10 +106,9 @@
         <li class="next">И Node.js</li>
         <li class="next" style="text-decoration:line-through;">Cчастливая безработная</li>
         <li class="next">Engineering Manager в Bravado</li>
-        <li class="next">Google Developer Expert в категории Web Technologies</li>
         <li class="next">Women Techmakers Ambassador</li>
       </ul>
-      <p style="margin-top: 20px; display: flex;" class="next"><img src="pictures/minskcss.png" class="logo"><img
+      <p style="margin-top: 50px; display: flex;" class="next"><img src="pictures/minskcss.png" class="logo"><img
           src="pictures/minskjs.png" class="logo"><img
           src="pictures/fc.png" class="logo"></p>
     </div><img src="pictures/about-cover.jpg" class="cover" />
@@ -1249,8 +1250,8 @@ const opts = { multiple: true };</code></pre><pre class="next"><code>navigator.c
   .catch(e => { ... })</code></pre></span>
   </section>
   <section id="" class="slide"><img src="pictures/contacts_use.jpg" class="cover" /><a
-      href="https://developer.mozilla.org/en-US/docs/Web/API/ContactsManager/getProperties"
-      class="copyright">ContactsManager - Web APIs | MDN</a>
+      href="https://caniuse.com/mdn-api_contactsmanager"
+      class="copyright">Caniuse — ContactsManager API</a>
   </section>
   <section id="" class="slide">
     <h2>Хранение и управление данными</h2>
@@ -1562,11 +1563,12 @@ const opts = { multiple: true };</code></pre><pre class="next"><code>navigator.c
   <section id="" class="slide"><img src="pictures/webassembly.jpg" class="cover" /><a href="https://webassembly.org/"
       class="copyright">WebAssembly</a>
   </section>
-  <section id="theend" class="slide">
-    <p style="position: absolute; bottom: 5%; color: #fff" class="end-link"><a href="http://bit.ly/FwDays-WebAPIs"
-        target="_blank" class="bigger">bit.ly/FwDays-WebAPIs</a><br>Саша Шинкевич (<a
+  <section id="theend" class="slide" style="background-color: black">
+    <p style="position: absolute; bottom: 23%; color: #fff" class="end-link"><a href="https://bit.ly/FC2022-WebAPIs"
+        target="_blank" class="bigger">bit.ly/FC2022-WebAPIs</a><br>Саша Шинкевич (<a
         href="https://twitter.com/neesoglasnaja" target="_blank">@neesoglasnaja</a>)</p><img src="pictures/the_end.gif"
-      style="min-height: 240%; max-width: none" class="cover">
+      style="min-height: 120%; max-width: none; margin-left: -22%; margin-top: -10%;" class="cover">
+      <img src="pictures/qr-code.gif" style="position: absolute; top: 6%; width: 40%; right: 5%;" />
   </section>
   <div class="progress"></div>
   <script src="shower/shower.js"></script>
